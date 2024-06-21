@@ -146,6 +146,16 @@ button:active{
     margin: 0 auto;
 }
 
+.row__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-cursor{
+    cursor: no-drop;
+}
+
 
 /*
 
@@ -231,6 +241,7 @@ Feauters
 
 .books{
     display: flex;
+    flex-wrap:wrap;
 }
 
 .book{
@@ -273,4 +284,12 @@ Feauters
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/*
+Explore
+*/
+
+#explore{
+    background-color: #7342d62c;
 }
